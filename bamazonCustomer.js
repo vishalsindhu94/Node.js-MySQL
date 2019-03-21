@@ -89,7 +89,7 @@ function shop() {
     ])
         .then(function (answer) {
             if (answer.continue === true)
-                bamlist();
+            bamList();
             else
                 connection.end();
         });
